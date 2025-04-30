@@ -55,23 +55,50 @@
             <div class="text-center">
                 <h1 class="h2">3D Procedural Terrain Generation</h1>
             </div>
-            <p>description</p>
+            <p>
+                In this project, I sought to create a standalone program for creating procedurally generated terrain meshes.
+                This project uses various noise functions and variables to create a 3D mesh of terrain data that can be exported
+                into a .OBJ file. This project was made in c++ using OpenGL for rendering.
+            </p>
 
 
 
             <div class="text-center">
-                <h1 class="h3">Github Repository</h1>
-                <a href="https://github.com/samuel-barnett/Procedural3DTerrainGeneration" title="">github page</a>
+                <h1 class="h3"><a href="https://github.com/samuel-barnett/Procedural3DTerrainGeneration" title="">Github Page</a></h1>
+
             </div>
 
             <div class="text-center">
-                <h1 class="h3">My Roles:</h1>
+                <h1 class="h3">Noise data:</h1>
             </div>
-            <p></p>
-            <blockquote>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."</p>
-                <small class="pull-right">Irina Martin</small>
-            </blockquote>
+            <p>
+                I was able to use the FastNoiseLite library by Jordan Peck to generate noise values. This library has several
+                noise types and modifiers for adjusting the noise output which I used to make this editor. The user is able to dynamically adjust 
+                the noise variables and modifiers to their liking. The user is able to influence noise type, frequency, amplitude, fractal type, and fractal intensity.
+            </p>
+
+            <div class="col-xs-12">
+                <img src="./assets/images/newTerrainGenGif.gif" class="img-responsive" alt="">
+            </div>
+
+            <div class="text-center">
+                <h1 class="h3">Exporting .OBJ:</h1>
+            </div>
+            <p>
+                After generating a mesh they are happy with, the user is able to export that mesh data to an .obj file.
+                This is done by outputting each vertex position alongside which of those vertices should make faces.
+                This information is put into a .obj file and is able to be used in a variety of game engines such as Unity
+                or Unreal engine or a 3D modelling program if further modification is required.
+            </p>
+
+            <div class="col-xs-12">
+                <img src="./assets/images/objData.png" class="img-responsive" alt="">
+            </div>
+            <div class="col-xs-12">
+                <img src="./assets/images/terrainImport.gif" class="img-responsive" alt="">
+            </div>
+
+
         </div>
         </div>
 
@@ -92,7 +119,7 @@
         <div class="col-xs-12">
             <p>Phone: +1 207 615 8761</p>
             <p>Email: samuelbarnett2002@gmail.com</p>
-            <p>linkedin: <a href="www.linkedin.com/in/samuel-a-barnett/" title="">samuel-a-barnett</a></p>
+            <p>linkedin: <a href="https://www.linkedin.com/in/samuel-a-barnett/" title="">samuel-a-barnett</a></p>
         </div>
     </div>
   </div>
